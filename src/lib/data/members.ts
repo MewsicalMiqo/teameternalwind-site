@@ -372,6 +372,7 @@ export const members: Member[] = [
 		id: 'coldiart',
 		name: 'ColdiArt',
 		bio: 'Hello~ I\'m a full time freelance artist, I love to draw and rig Vtuber models! Feel free to stop by for chill art streams 🩷 ✨',
+		avatar: 'pfp/coldiarts.png',
 		accent: '#2dd4bf',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/coldiart' },
@@ -384,6 +385,7 @@ export const members: Member[] = [
 		id: 'boomykatyte',
 		name: 'BoomyKatyte',
 		bio: 'Hewwo 🌙 💜 I am Boomy~ And Mewmi mama adopted me! I love cats, boba tea, and fluffy blankets!',
+		avatar: 'pfp/boomy.png',
 		accent: '#fb7185',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/BoomyKatyte' },
@@ -396,6 +398,7 @@ export const members: Member[] = [
 		id: 'rurimoth',
 		name: 'Rurimoth',
 		bio: 'Hello cute curiosities, I\'m Ruri Moth, a traveler from a long dead star simply seeking to share the knowledge of how to prevent the spread of humanity. I enjoy JRPGs, FFXIV, easy games and stories rich with science. It is a pleasure to make your acquaintance.',
+		avatar: 'pfp/rurimoth.png',
 		accent: '#2dd4bf',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/rurimoth' },
