@@ -26,14 +26,26 @@
 		youtube: 'YouTube',
 		tiktok: 'TikTok',
 	};
+
+	// The canonical Twitch mark is drawn with thin strokes that blur at small UI
+	// sizes. Reinforce it with a subtle outline in its own colour (and use a
+	// slightly padded viewBox so the stroke never clips) so it reads as crisply
+	// as the sibling glyphs.
+	const twitchAttrs = {
+		'fill-rule': 'evenodd',
+		stroke: 'currentColor',
+		'stroke-width': '0.75',
+		'stroke-linejoin': 'round',
+	} as const;
 </script>
 
 <svg
 	class="social-icon"
 	width={size}
 	height={size}
-	viewBox="0 0 24 24"
+	viewBox={icon === 'twitch' ? '-0.5 -0.5 25 25' : '0 0 24 24'}
 	fill="currentColor"
+	{...icon === 'twitch' ? twitchAttrs : {}}
 	role="img"
 	aria-label={labels[icon]}
 >
