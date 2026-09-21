@@ -13,7 +13,6 @@ on:
 
 permissions:
   contents: write
-  workflow: write
 
 concurrency:
   group: update-members
@@ -57,4 +56,4 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deploy.yml --ref main
+        run: gh api -X POST repos/$GITHUB_REPOSITORY/dispatches -f event_type=deploy-site
