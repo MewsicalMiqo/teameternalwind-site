@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { navigate } from '$lib/router';
 	import { team } from '$lib/data/team';
-	import logo from '$assets/avatars/logo.gif';
+	import logo from '$assets/avatars/logo.webm';
 	import MagneticButton from './MagneticButton.svelte';
 	import SocialIcon from './SocialIcon.svelte';
 </script>
@@ -9,7 +9,7 @@
 <section class="hero" aria-label="Introduction">
 	<div class="container hero__inner">
 		<div class="hero__badge">
-			<img class="hero__logo" src={logo} alt="Team Eternal Wind logo" />
+			<video class="hero__logo" src={logo} autoplay muted loop playsinline aria-label="Team Eternal Wind logo"></video>
 		</div>
 		<p class="eyebrow">VTuber Team</p>
 		<h1 class="hero__title">Team <span class="gradient-text">Eternal Wind</span></h1>
@@ -53,23 +53,7 @@
 	.hero__logo {
 		width: 118px;
 		height: 118px;
-		border-radius: 28px;
-		object-fit: cover;
-		border: 1px solid var(--border-strong);
-		box-shadow:
-			0 0 0 6px rgba(139, 92, 246, 0.12),
-			0 24px 70px -20px rgba(139, 92, 246, 0.55);
-		animation: float 5.5s ease-in-out infinite;
-	}
-
-	@keyframes float {
-		0%,
-		100% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(-10px);
-		}
+		object-fit: contain;
 	}
 
 	.hero__title {
