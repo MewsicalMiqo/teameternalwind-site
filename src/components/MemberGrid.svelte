@@ -9,7 +9,7 @@
 		<header class="section-head" use:useReveal>
 			<p class="eyebrow">The Crew</p>
 			<h2 class="section-title">Meet <span class="gradient-text">our members</span></h2>
-			<p class="section-sub">Eight personalities, one endless wind. Hover over a tile to say hi.</p>
+			<p class="section-sub">{members.length} personalities, one endless wind. Hover over a tile to say hi.</p>
 		</header>
 
 		<div class="grid">

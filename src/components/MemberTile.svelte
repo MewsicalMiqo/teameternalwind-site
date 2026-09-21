@@ -36,6 +36,7 @@
 		instagram: 'Instagram',
 		youtube: 'YouTube',
 		tiktok: 'TikTok',
+		bluesky: 'Bluesky',
 	};
 </script>
 
@@ -48,27 +49,31 @@
 >
 	<div class="tile__spot" aria-hidden="true"></div>
 
-	<div class="tile__avatar">
-		<img src={member.avatar} alt={member.name} loading="lazy" draggable="false" />
-	</div>
+	{#if member.avatar}
+		<div class="tile__avatar">
+			<img src={member.avatar} alt={member.name} loading="lazy" draggable="false" />
+		</div>
+	{/if}
 
 	<h3 class="tile__name">{member.name}</h3>
 	<p class="tile__bio">{member.bio}</p>
 
-	<ul class="tile__socials" aria-label={`${member.name} social links`}>
-		{#each member.socials as social}
-			<li>
-				<a
-					href={social.url}
-					target="_blank"
-					rel="noopener noreferrer"
-					aria-label={`${member.name} on ${socialLabels[social.key]}`}
-				>
-					<SocialIcon icon={social.key} size={18} />
-				</a>
-			</li>
-		{/each}
-	</ul>
+	{#if member.socials.length > 0}
+		<ul class="tile__socials" aria-label={`${member.name} social links`}>
+			{#each member.socials as social (social.key)}
+				<li>
+					<a
+						href={social.url}
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label={`${member.name} on ${socialLabels[social.key]}`}
+					>
+						<SocialIcon icon={social.key} size={18} />
+					</a>
+				</li>
+			{/each}
+		</ul>
+	{/if}
 </article>
 
 <style>
