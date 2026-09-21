@@ -51,8 +51,8 @@
 	}
 
 	.hero__logo {
-		width: 118px;
-		height: 118px;
+		width: clamp(170px, 26vw, 290px);
+		height: clamp(170px, 26vw, 290px);
 		object-fit: contain;
 	}
 

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { navigate } from '$lib/router';
 	import { team } from '$lib/data/team';
-	import logo from '$assets/avatars/logo.gif';
+	import logo from '$assets/avatars/logo.png';
 	import SocialIcon from './SocialIcon.svelte';
 
 	let current = $state<'home' | 'rules'>('home');
@@ -89,10 +89,9 @@
 	}
 
 	.brand__logo {
-		width: 34px;
 		height: 34px;
+		width: auto;
 		border-radius: 10px;
-		object-fit: cover;
 		border: 1px solid var(--border);
 	}
 
