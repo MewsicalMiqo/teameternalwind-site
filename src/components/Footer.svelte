@@ -15,12 +15,6 @@
 			<a href={team.twitch} target="_blank" rel="noopener noreferrer">
 				<SocialIcon icon="twitch" size={18} /> <span>Team on Twitch</span>
 			</a>
-			<a href={team.x} target="_blank" rel="noopener noreferrer">
-				<SocialIcon icon="x" size={16} /> <span>X / Twitter</span>
-			</a>
-			<a href={team.youtube} target="_blank" rel="noopener noreferrer">
-				<SocialIcon icon="youtube" size={18} /> <span>YouTube</span>
-			</a>
 		</nav>
 
 		<p class="footer__note">

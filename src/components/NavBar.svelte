@@ -47,12 +47,6 @@
 			<a href={team.twitch} target="_blank" rel="noopener noreferrer" aria-label="Twitch team channel">
 				<SocialIcon icon="twitch" size={18} />
 			</a>
-			<a href={team.x} target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
-				<SocialIcon icon="x" size={18} />
-			</a>
-			<a href={team.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-				<SocialIcon icon="youtube" size={18} />
-			</a>
 		</div>
 	</div>
 </header>
