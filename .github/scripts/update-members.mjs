@@ -8,8 +8,9 @@
  *
  * Cell conventions:
  *   - Social cells: a full URL (https://...) or a bare handle/URL without scheme.
- *   - PFP cell: a full image URL, or a bare file name that is resolved
- *     against the /pfp/ folder in public/ (e.g. "mewmi.png" → "pfp/mewmi.png").
+ *   - PFP cell: a full image URL (Google Drive share links are rewritten to the
+ *     direct image endpoint), or a bare file name that is resolved against the
+ *     /pfp/ folder in public/ (e.g. "mewmi.png" → "pfp/mewmi.png").
  *
  * Usage:
  *   SHEET_URL="https://docs.google.com/spreadsheets/d/<ID>/edit" node .github/scripts/update-members.mjs
@@ -162,6 +163,14 @@ function normSocial(cell) {
 function normAvatar(cell) {
   const v = (cell || '').trim();
   if (!v) return '';
+  // Google Drive share links ("…/file/d/<id>/view?usp=drive_link") serve an HTML
+  // page, not image bytes, so <img src> would show a broken image. Rewrite any
+  // Drive link form to the direct image endpoint instead. Drive files must be
+  // shared as "Anyone with the link → Viewer".
+  const drive = v.match(
+    /drive\.google\.com\/(?:file\/d\/([A-Za-z0-9_-]+)\/view|uc\?(?:export=(?:view|download)&)?id=([A-Za-z0-9_-]+))/,
+  );
+  if (drive) return `https://lh3.googleusercontent.com/d/${drive[1] || drive[2]}`;
   if (/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(v)) return v; // full URL → keep as-is
   return 'pfp/' + v.replace(/^\.?\/+/, ''); // bare file → /pfp/<file>
 }
