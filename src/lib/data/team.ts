@@ -7,5 +7,5 @@ export const team = {
 	twitchHandle: '@teameternalwind',
 	x: 'https://twitter.com/teameternalwind',
 	youtube: 'https://www.youtube.com/channel/UCHdRF6FgpFYjlN3FfhHOlnA',
-	logo: './favicon.gif',
+	logo: './logo.png',
 };
