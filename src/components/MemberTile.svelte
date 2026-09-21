@@ -91,7 +91,7 @@
 		backdrop-filter: blur(14px);
 		overflow: hidden;
 		transition:
-			transform 0.16s ease-out,
+			transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
 			border-color 0.35s ease,
 			box-shadow 0.35s ease;
 		will-change: transform;
@@ -109,6 +109,8 @@
 	}
 
 	.tile.is-hover {
+		z-index: 2;
+		transform: translateY(-6px) scale(1.03);
 		border-color: color-mix(in srgb, var(--accent) 50%, var(--border));
 		box-shadow:
 			0 30px 70px -24px color-mix(in srgb, var(--accent) 42%, transparent),
