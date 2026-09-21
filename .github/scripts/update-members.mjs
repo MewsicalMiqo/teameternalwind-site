@@ -9,7 +9,7 @@
  * Cell conventions:
  *   - Social cells: a full URL (https://...) or a bare handle/URL without scheme.
  *   - PFP cell: a full image URL (Google Drive share links are rewritten to the
- *     direct image endpoint), or a bare file name that is resolved against the
+ *     direct image endpoint at 256px width), or a bare file name that is resolved against the
  *     /pfp/ folder in public/ (e.g. "mewmi.png" → "pfp/mewmi.png").
  *
  * Usage:
@@ -170,7 +170,8 @@ function normAvatar(cell) {
   const drive = v.match(
     /drive\.google\.com\/(?:file\/d\/([A-Za-z0-9_-]+)\/view|uc\?(?:export=(?:view|download)&)?id=([A-Za-z0-9_-]+))/,
   );
-  if (drive) return `https://lh3.googleusercontent.com/d/${drive[1] || drive[2]}`;
+  // =w256 keeps avatars ~2x display size (112px) so they load fast.
+  if (drive) return `https://lh3.googleusercontent.com/d/${drive[1] || drive[2]}=w256`;
   if (/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(v)) return v; // full URL → keep as-is
   return 'pfp/' + v.replace(/^\.?\/+/, ''); // bare file → /pfp/<file>
 }

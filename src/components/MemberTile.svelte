@@ -12,6 +12,7 @@
 
 	function onMove(e: PointerEvent) {
 		if (!card) return;
+		if (e.pointerType !== 'mouse') return; // touch: skip tilt so scrolling stays cheap
 		const r = card.getBoundingClientRect();
 		const px = (e.clientX - r.left) / r.width;
 		const py = (e.clientY - r.top) / r.height;
@@ -51,7 +52,15 @@
 
 	{#if member.avatar}
 		<div class="tile__avatar">
-			<img src={member.avatar} alt={member.name} loading="lazy" draggable="false" />
+			<img
+				src={member.avatar}
+				alt={member.name}
+				width="112"
+				height="112"
+				loading="lazy"
+				decoding="async"
+				draggable="false"
+			/>
 		</div>
 	{/if}
 
@@ -86,15 +95,17 @@
 		text-align: center;
 		padding: 38px 26px 30px;
 		border-radius: var(--radius-lg);
-		background: var(--surface);
+		/* Solid-ish surface instead of backdrop-filter: blurring the animated
+		   canvas + aurora behind all 36 tiles on every frame was the main
+		   scroll-jank source. The tinted semi-transparent panel keeps the glassy
+		   look (aurora glow still bleeds through) at a fraction of the cost. */
+		background: linear-gradient(160deg, rgba(23, 27, 52, 0.68), rgba(10, 13, 31, 0.6));
 		border: 1px solid var(--border);
-		backdrop-filter: blur(14px);
 		overflow: hidden;
 		transition:
 			transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
 			border-color 0.35s ease,
 			box-shadow 0.35s ease;
-		will-change: transform;
 	}
 
 	.tile__spot {

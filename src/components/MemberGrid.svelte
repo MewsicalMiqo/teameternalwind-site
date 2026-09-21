@@ -14,7 +14,7 @@
 
 		<div class="grid">
 			{#each members as member, i (member.id)}
-				<div class="reveal" style="--reveal-delay: {i * 70}ms" use:useReveal>
+				<div class="reveal" style="--reveal-delay: {(i % 4) * 90}ms" use:useReveal>
 					<MemberTile member={member} />
 				</div>
 			{/each}

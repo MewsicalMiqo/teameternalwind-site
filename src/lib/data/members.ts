@@ -23,7 +23,7 @@ export const members: Member[] = [
 		id: 'mewsicalmiqo',
 		name: 'MewsicalMiqo',
 		bio: 'Queen of the Cosmos, professional Hoyoverse creator and Unity streamer. I hope you will come hang out in my comfy booli-free zone.',
-		avatar: 'https://lh3.googleusercontent.com/d/1_H7FqXfjKL9hjq96cUFl2vhyC8mQLlK3',
+		avatar: 'https://lh3.googleusercontent.com/d/1_H7FqXfjKL9hjq96cUFl2vhyC8mQLlK3=w256',
 		accent: '#e879f9',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/mewsicalmiqo' },
@@ -37,7 +37,7 @@ export const members: Member[] = [
 		id: 'tayetales',
 		name: 'TayeTales',
 		bio: 'I\'m a gamer girl who played WoW for over 10 years. I love games heavily invested in strong story and character development, MMO\'s and strategy games. My main love is DnD, which I stream regularly. Currently the MMO I am playing is FFXIV.',
-		avatar: 'https://lh3.googleusercontent.com/d/1tYEULtFXZqQnk2FebuksJvsfAOzVRoMc',
+		avatar: 'https://lh3.googleusercontent.com/d/1tYEULtFXZqQnk2FebuksJvsfAOzVRoMc=w256',
 		accent: '#fbbf24',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/TayeTales' },
@@ -49,7 +49,7 @@ export const members: Member[] = [
 		id: 'fizzygames',
 		name: 'FizzyGames',
 		bio: 'Hello!~ I\'m Fizzy, a comfy lizzer VTuber and XIV raider. Come in and enjoy the chill vibes and discussion as we play XIV, Destiny 2, and the occasional variety game',
-		avatar: 'https://lh3.googleusercontent.com/d/1KV4lEp0dOYdcdAoK2U7enegdFruU_5oa',
+		avatar: 'https://lh3.googleusercontent.com/d/1KV4lEp0dOYdcdAoK2U7enegdFruU_5oa=w256',
 		accent: '#4ade80',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/fizzygames' },
@@ -63,7 +63,7 @@ export const members: Member[] = [
 		id: 'rinnibun',
 		name: 'RinniBun',
 		bio: 'Bunny created by an Ancient Powerful Deity with Moon crystals to guard against chaotic creations~ 🐰 A Healer, I will protect and revive you~',
-		avatar: 'https://lh3.googleusercontent.com/d/1HXKXvgERc70709wgPNtrHCToWguiDQMH',
+		avatar: 'https://lh3.googleusercontent.com/d/1HXKXvgERc70709wgPNtrHCToWguiDQMH=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://twitch.tv/rinnibun' },
@@ -77,7 +77,7 @@ export const members: Member[] = [
 		id: 'dreamyetude',
 		name: 'DreamyEtude',
 		bio: 'Welcome in everybody, my name is Dreamy and I’m a magical bunny girl vtuber! I am a FFXIV streamer but sometimes you can find me playing multiplayer games with friends 💖 #1 Kazooist on Twitch.',
-		avatar: 'https://lh3.googleusercontent.com/d/1E0Yk3Br8l9C6sP5e2fCnMoIHLAkRLaYq',
+		avatar: 'https://lh3.googleusercontent.com/d/1E0Yk3Br8l9C6sP5e2fCnMoIHLAkRLaYq=w256',
 		accent: '#f472b6',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/dreamyetude' },
@@ -91,7 +91,7 @@ export const members: Member[] = [
 		id: 'projekt-auran',
 		name: 'Projekt Auran',
 		bio: 'Hi cuties! ❤️ 🖤 Projekt Auran here! Just call me Auran! I am a Blood Moon Bunny! Sometimes elf!\nPlaying games is what I do best!\nI often play gacha games and MMOs! I also am a Vtuber mama of many! (Vroid) Let\'s have some fun! Big!',
-		avatar: 'https://lh3.googleusercontent.com/d/1l2Pz2VYbjgOj9WUsweO8MzHU4Z3WZg5v',
+		avatar: 'https://lh3.googleusercontent.com/d/1l2Pz2VYbjgOj9WUsweO8MzHU4Z3WZg5v=w256',
 		accent: '#fb7185',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/projektauran' },
@@ -105,7 +105,7 @@ export const members: Member[] = [
 		id: 'onmyoujin',
 		name: 'Onmyoujin',
 		bio: 'Onmyoujin, Jin for short, a demon "goat boy" (actually just a demon) that coalesced from lost souls at the edge of Purgatory. With Lust, Gluttony, and Sloth as his primary aspects, he mostly just wants to play sussy video games and eat cookies all day. Can be summoned with offerings of baked goods and hentai.',
-		avatar: 'https://lh3.googleusercontent.com/d/1c5W_G9G5uTNG_7WCXQSnj7iQBkIWp7U1',
+		avatar: 'https://lh3.googleusercontent.com/d/1c5W_G9G5uTNG_7WCXQSnj7iQBkIWp7U1=w256',
 		accent: '#fb923c',
 		socials: [
 			{ key: 'twitch', url: 'https://twitch.tv/onmyoujin' },
@@ -117,7 +117,7 @@ export const members: Member[] = [
 		id: 'ahrieffect',
 		name: 'AhriEffect',
 		bio: 'FFXIV Hyur/Catgirl Vtuber! Hardcore Raider, Deep Dungeon Delver, and Community Builder! If you need help with any piece of content look no further. My mission is for our stream to foster an environment for casual players to get into endgame raiding. :)',
-		avatar: 'https://lh3.googleusercontent.com/d/1iOJOhJqp7JYhfFHUYCa3N-WJtFQ8CvIU',
+		avatar: 'https://lh3.googleusercontent.com/d/1iOJOhJqp7JYhfFHUYCa3N-WJtFQ8CvIU=w256',
 		accent: '#2dd4bf',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/ahrieffect' },
@@ -130,7 +130,7 @@ export const members: Member[] = [
 		id: 'vtdara',
 		name: 'VTDara',
 		bio: 'Just another V-tuber that likes to hang out with chat and play games',
-		avatar: 'https://lh3.googleusercontent.com/d/1wtiPFhkk_2ytYZROCUnEyYh_BOT1IRGU',
+		avatar: 'https://lh3.googleusercontent.com/d/1wtiPFhkk_2ytYZROCUnEyYh_BOT1IRGU=w256',
 		accent: '#2dd4bf',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/vtdara' },
@@ -142,7 +142,7 @@ export const members: Member[] = [
 		id: 'kira-aurora',
 		name: 'Kira_Aurora',
 		bio: 'Cyberpunk fox, digital artist, and VR Enthusiast! 🦊💙 Any pronouns. :)',
-		avatar: 'https://lh3.googleusercontent.com/d/1fJOk_FbAitdVL6FbSsPSA2f30zJe7pFJ',
+		avatar: 'https://lh3.googleusercontent.com/d/1fJOk_FbAitdVL6FbSsPSA2f30zJe7pFJ=w256',
 		accent: '#fb7185',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/kira_aurora' },
@@ -155,7 +155,7 @@ export const members: Member[] = [
 		id: 'hino',
 		name: 'Hino',
 		bio: 'i’m hino! a cat sun deity descended from the heavens to bring light into your life! ฅ^•ﻌ•^ฅ',
-		avatar: 'https://lh3.googleusercontent.com/d/1-TdICzw56F7_mTy6PcgIfaV0-6K4bKx7',
+		avatar: 'https://lh3.googleusercontent.com/d/1-TdICzw56F7_mTy6PcgIfaV0-6K4bKx7=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/hino' },
@@ -168,7 +168,7 @@ export const members: Member[] = [
 		id: 'zanyravt',
 		name: 'ZanyraVT',
 		bio: 'Hi! You can call me Nyra! Feel free to chill here and let\'s have a good time! FFXIV main games, variety games!',
-		avatar: 'https://lh3.googleusercontent.com/d/1uIZe63IR2PQczTCBIunwPbcxXwpbH8z9',
+		avatar: 'https://lh3.googleusercontent.com/d/1uIZe63IR2PQczTCBIunwPbcxXwpbH8z9=w256',
 		accent: '#f472b6',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/zanyravt' },
@@ -182,7 +182,7 @@ export const members: Member[] = [
 		id: 'orcanvt',
 		name: 'OrcanVT',
 		bio: 'Hey there voidlings! I\'m Orcan. Dragon-Demon Hybrid Vtuber. Mostly focused on FFXIV with some variety on the side. Can provide comfy vibes and turn into a degen with a blink of the eye.',
-		avatar: 'https://lh3.googleusercontent.com/d/1BGI3MyUO_i9DYcBJkfm4-KXBAdSdIeMc',
+		avatar: 'https://lh3.googleusercontent.com/d/1BGI3MyUO_i9DYcBJkfm4-KXBAdSdIeMc=w256',
 		accent: '#4ade80',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/orcanvt' },
@@ -194,7 +194,7 @@ export const members: Member[] = [
 		id: 'kwonssi',
 		name: 'Kwonssi',
 		bio: 'Smol (Lalafell) gremlin healing through FFXIV Savage / Ultimate, indulging Persona & breezing through Story of Seasons. I like pancakes and milk tea 🥞 🧋',
-		avatar: 'https://lh3.googleusercontent.com/d/1aWEbJ8tyHaLkoC8H6MTntrlP0bZY096P',
+		avatar: 'https://lh3.googleusercontent.com/d/1aWEbJ8tyHaLkoC8H6MTntrlP0bZY096P=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/kwonssi' },
@@ -205,7 +205,7 @@ export const members: Member[] = [
 		id: 'whitemagetali',
 		name: 'WhiteMageTali',
 		bio: '💚Hiya, I\'m Tali, Green Bunny, Variety Gaming Vtuber, Eternal Wind Manager, Fansly Model, Lover of Cute Things and Sweethearts💚',
-		avatar: 'https://lh3.googleusercontent.com/d/1vTV0rSm1C6uN3zlqwqly6eniQgmdIaNN',
+		avatar: 'https://lh3.googleusercontent.com/d/1vTV0rSm1C6uN3zlqwqly6eniQgmdIaNN=w256',
 		accent: '#4ade80',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/whitemagetali' },
@@ -220,7 +220,7 @@ export const members: Member[] = [
 		id: 'sitricorday',
 		name: 'Sitricorday',
 		bio: 'Hi I\'m the Sit of the Ree and I\'m your local celestial goldfish V-tuber. I primarily play FFXIV, but I like to mix in some variety games here and there.',
-		avatar: 'https://lh3.googleusercontent.com/d/1cV3HYkWZWh6LIh_2AZa1TEo0pvyJejW0',
+		avatar: 'https://lh3.googleusercontent.com/d/1cV3HYkWZWh6LIh_2AZa1TEo0pvyJejW0=w256',
 		accent: '#4ade80',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/sitricorday' },
@@ -232,7 +232,7 @@ export const members: Member[] = [
 		id: 'gaiety',
 		name: 'Gaiety__',
 		bio: 'I\'m Gaiety, the Otter Queen. Two words: MHW, FFXIV.',
-		avatar: 'https://lh3.googleusercontent.com/d/1NXS2flHbgAknJoZDyfBoSfmPS3qaMQJn',
+		avatar: 'https://lh3.googleusercontent.com/d/1NXS2flHbgAknJoZDyfBoSfmPS3qaMQJn=w256',
 		accent: '#fb923c',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/gaiety' },
@@ -244,7 +244,7 @@ export const members: Member[] = [
 		id: 'kinstera',
 		name: 'Kinstera',
 		bio: 'just a smol british moon demon | i games, art and cheese',
-		avatar: 'https://lh3.googleusercontent.com/d/1scBnxb9ch-C7H5aZeKtyRf2iDXUz-Sxy',
+		avatar: 'https://lh3.googleusercontent.com/d/1scBnxb9ch-C7H5aZeKtyRf2iDXUz-Sxy=w256',
 		accent: '#fb923c',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/kinstera' },
@@ -258,7 +258,7 @@ export const members: Member[] = [
 		id: 'lunachifuyu',
 		name: 'LunaChifuyu',
 		bio: 'Hello everyone! I\'m Luna, a star bunny vtuber! I\'m a klutz who loves adventures through RPGs, rolling gachas, and is multilingual. It\'s very lovely to meet you all!',
-		avatar: 'https://lh3.googleusercontent.com/d/1PklIGfFcaBhF-JKZv41G3l4tFtEdDeI2',
+		avatar: 'https://lh3.googleusercontent.com/d/1PklIGfFcaBhF-JKZv41G3l4tFtEdDeI2=w256',
 		accent: '#4ade80',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/lunachifuyu' },
@@ -270,7 +270,7 @@ export const members: Member[] = [
 		id: 'aiyanya',
 		name: 'Aiyanya',
 		bio: 'Hi, I\'m Aiyanya but you can call me Aiya if it\'s easier. My main aim is to make people smile and offer a comfy corner of the internet with chill vibes. I hope you enjoy your stay ♥',
-		avatar: 'https://lh3.googleusercontent.com/d/1ZApxqqjxktu-xdKkPN7JeTW24o5UAilh',
+		avatar: 'https://lh3.googleusercontent.com/d/1ZApxqqjxktu-xdKkPN7JeTW24o5UAilh=w256',
 		accent: '#fbbf24',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/aiyanya' },
@@ -281,7 +281,7 @@ export const members: Member[] = [
 		id: 'azuritetv',
 		name: 'AzuriteTV',
 		bio: 'YouTube/Twitch Content Creator - Wholesome Degen Variety Bri\'ish Lizard Vtuber!',
-		avatar: 'https://lh3.googleusercontent.com/d/1hcP6PXeEu7TkFbQMShdm8Pg3LBwZ0tGO',
+		avatar: 'https://lh3.googleusercontent.com/d/1hcP6PXeEu7TkFbQMShdm8Pg3LBwZ0tGO=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/AzuriteTV' },
@@ -294,7 +294,7 @@ export const members: Member[] = [
 		id: 'vanillacrescent',
 		name: 'VanillaCrescent',
 		bio: 'I\'m Vanilla! ♂ Magical Moon Squirrel Queen Babiniku VTuber ♥ I\'ll be your favorite squirrel! I want ice cream though. I am a FFXIV-Focused Variety content creator, comedy major, Adventure enthusiast and chaos advocate!',
-		avatar: 'https://lh3.googleusercontent.com/d/1JGE4ONUKNtBNVG378slp5dkoS2X4UMJH',
+		avatar: 'https://lh3.googleusercontent.com/d/1JGE4ONUKNtBNVG378slp5dkoS2X4UMJH=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/VanillaCrescent' },
@@ -308,7 +308,7 @@ export const members: Member[] = [
 		id: 'blankiexiii',
 		name: 'BlankieXIII',
 		bio: 'Hello I am Blankie your resident chaotic ADHD brain nekomata. My content mainly focuses around FFXIV and variety games! Come hang out with me sometime~🖤',
-		avatar: 'https://lh3.googleusercontent.com/d/1463kMoxJB9Cmo0V3ll8JnYmGIlM0V0Ug',
+		avatar: 'https://lh3.googleusercontent.com/d/1463kMoxJB9Cmo0V3ll8JnYmGIlM0V0Ug=w256',
 		accent: '#fb923c',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/BlankieXIII' },
@@ -321,7 +321,7 @@ export const members: Member[] = [
 		id: 'hiksvt',
 		name: 'HiksVT',
 		bio: 'English speaking Final Fantasy 14 vtuber. Come by and say hi! They/them preferred, but I won\'t get mad whatever ❤',
-		avatar: 'https://lh3.googleusercontent.com/d/10MaPPofALyzh--Cls-F-Xwmkm-_GUtxt',
+		avatar: 'https://lh3.googleusercontent.com/d/10MaPPofALyzh--Cls-F-Xwmkm-_GUtxt=w256',
 		accent: '#fb923c',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/HiksVT' },
@@ -334,7 +334,7 @@ export const members: Member[] = [
 		id: 'awootiful',
 		name: 'Awootiful',
 		bio: 'I\'m Awoo Watabe, Lunar Wolf VTuber!! I\'m super passionate about RPGs such as Final Fantasy, Xenoblade, and Pokemon! Will almost guaranteed nerd at you about my favorite things! :>',
-		avatar: 'https://lh3.googleusercontent.com/d/1CDM4M5kBQJZKI-haiOuAYQIV1WkjHuJY',
+		avatar: 'https://lh3.googleusercontent.com/d/1CDM4M5kBQJZKI-haiOuAYQIV1WkjHuJY=w256',
 		accent: '#2dd4bf',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/Awootiful' },
@@ -346,7 +346,7 @@ export const members: Member[] = [
 		id: 'rururollin',
 		name: 'RuruRollin',
 		bio: 'Hi I\'m Ruru a half phoenix half angel PH/EN Vtuber. I\'m a comfy streamer who loves to play and hang out with friends.',
-		avatar: 'https://lh3.googleusercontent.com/d/1jjMcn-gR0Nc1ga-nd5EnCApmnysD_xfN',
+		avatar: 'https://lh3.googleusercontent.com/d/1jjMcn-gR0Nc1ga-nd5EnCApmnysD_xfN=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/RuruRollin' },
@@ -360,7 +360,7 @@ export const members: Member[] = [
 		id: 'kuniculus',
 		name: 'Kuniculus',
 		bio: '🐇Hi! I\'m Kuniculus, but just call me Kuni, your service bound púca shapeshifted into a cute bunny maid. Here to provide some sub-par gaming and a relaxing atmosphere to hang out in. Feel free to stop by and allow me to serve you!🐇',
-		avatar: 'https://lh3.googleusercontent.com/d/1Zrn5ErRrw5huHWZPnGEwXYBsKHJkreqA',
+		avatar: 'https://lh3.googleusercontent.com/d/1Zrn5ErRrw5huHWZPnGEwXYBsKHJkreqA=w256',
 		accent: '#e879f9',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/kuniculus' },
@@ -372,7 +372,7 @@ export const members: Member[] = [
 		id: 'coldiart',
 		name: 'ColdiArt',
 		bio: 'Hello~ I\'m a full time freelance artist, I love to draw and rig Vtuber models! Feel free to stop by for chill art streams 🩷 ✨',
-		avatar: 'https://lh3.googleusercontent.com/d/1s_YNIRQ5UsohbMiZipRHsW3t1N-gNLyW',
+		avatar: 'https://lh3.googleusercontent.com/d/1s_YNIRQ5UsohbMiZipRHsW3t1N-gNLyW=w256',
 		accent: '#2dd4bf',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/coldiart' },
@@ -385,7 +385,7 @@ export const members: Member[] = [
 		id: 'boomykatyte',
 		name: 'BoomyKatyte',
 		bio: 'Hewwo 🌙 💜 I am Boomy~ And Mewmi mama adopted me! I love cats, boba tea, and fluffy blankets!',
-		avatar: 'https://lh3.googleusercontent.com/d/1JL-b9G0Eq1aiBXwcqUfJyPylLU2j9la7',
+		avatar: 'https://lh3.googleusercontent.com/d/1JL-b9G0Eq1aiBXwcqUfJyPylLU2j9la7=w256',
 		accent: '#fb7185',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/BoomyKatyte' },
@@ -398,7 +398,7 @@ export const members: Member[] = [
 		id: 'rurimoth',
 		name: 'Rurimoth',
 		bio: 'Hello cute curiosities, I\'m Ruri Moth, a traveler from a long dead star simply seeking to share the knowledge of how to prevent the spread of humanity. I enjoy JRPGs, FFXIV, easy games and stories rich with science. It is a pleasure to make your acquaintance.',
-		avatar: 'https://lh3.googleusercontent.com/d/1nbEtp_M5THNGtkHaPNutWOeJZihVj79-',
+		avatar: 'https://lh3.googleusercontent.com/d/1nbEtp_M5THNGtkHaPNutWOeJZihVj79-=w256',
 		accent: '#2dd4bf',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/rurimoth' },
@@ -409,7 +409,7 @@ export const members: Member[] = [
 		id: 'kaiyokostar',
 		name: 'KaiyokoStar',
 		bio: 'Hello~ I\'m Kai, a Cat VTuber that enjoys playing MMOs, Souls-likes, JRPGs, and discussing gaming culture.',
-		avatar: 'https://lh3.googleusercontent.com/d/1BQK7mAyUl_gHr5T-rOU9gp5HzNsH1Ka2',
+		avatar: 'https://lh3.googleusercontent.com/d/1BQK7mAyUl_gHr5T-rOU9gp5HzNsH1Ka2=w256',
 		accent: '#fb923c',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/kaiyokostar' },
@@ -422,7 +422,7 @@ export const members: Member[] = [
 		id: 'queenswrath',
 		name: 'QueensWrath',
 		bio: 'Sup, I\'m Queens Male wife corpse and boy failure, Im a Slime/symboite dragon who was placed in purgatory by lucifer to protect its gates, I control the corpse of anything and anyone i find along the way to get that job done. (right now its the body of a woman who\'s bones i found). I like dogs, coffee, plushies and pizza.',
-		avatar: 'https://lh3.googleusercontent.com/d/13dQ0jMzzKalGz68VX57BMquNI3Gb9Qtt',
+		avatar: 'https://lh3.googleusercontent.com/d/13dQ0jMzzKalGz68VX57BMquNI3Gb9Qtt=w256',
 		accent: '#f472b6',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/QueensWrath' },
@@ -435,7 +435,7 @@ export const members: Member[] = [
 		id: 'djripsr',
 		name: 'DJRIPSR',
 		bio: 'I am a Shapeshifting goddess who is an all elemental but is most comfortable in the chill of ice cold climates, my content focuses on Speedrunning, Castlevania, community content, survival and building games, FF14, but mostly Retro Genre Games, I love playing games with friends, come and chill the only thing that bites is the chilling cold.',
-		avatar: 'https://lh3.googleusercontent.com/d/14SejdNKiyKx5gW4XnkLm-GwZJ6hDIpJ7',
+		avatar: 'https://lh3.googleusercontent.com/d/14SejdNKiyKx5gW4XnkLm-GwZJ6hDIpJ7=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/djripsr' },
@@ -447,7 +447,7 @@ export const members: Member[] = [
 		id: 'elitheinanna',
 		name: 'ElitheInanna',
 		bio: 'Hello! 🌸 My name\'s Elithe, you can call me Eli! I\'m a FFXIV-focussed variety streamer ! I\'d love to spend some time with you, pay me a visit? ❤️',
-		avatar: 'https://lh3.googleusercontent.com/d/1RvyC60CJr5VQ7TtE3sw79Z8vSv51Gky6',
+		avatar: 'https://lh3.googleusercontent.com/d/1RvyC60CJr5VQ7TtE3sw79Z8vSv51Gky6=w256',
 		accent: '#fb7185',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/ElitheInanna' },
@@ -459,7 +459,7 @@ export const members: Member[] = [
 		id: 'theemmallama',
 		name: 'TheEmmaLlama',
 		bio: 'I\'m Emma but you can call me Em! I\'m an Australian Monster Girl VTuber that likes giving steppies to peopleヾ(＠^▽^＠)ﾉ ✨',
-		avatar: 'https://lh3.googleusercontent.com/d/10rZLm_2OYPz11oYG22IM2T71jyzj9_Xy',
+		avatar: 'https://lh3.googleusercontent.com/d/10rZLm_2OYPz11oYG22IM2T71jyzj9_Xy=w256',
 		accent: '#fb7185',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/theemmallama' },
@@ -470,7 +470,7 @@ export const members: Member[] = [
 		id: 'songbirdsffxiv',
 		name: 'SongbirdsFFXIV',
 		bio: 'An FFXIV bard band and catgirl VTuber who streams in-game concert venues.',
-		avatar: 'https://lh3.googleusercontent.com/d/1_b77KIZ741g2XmBF6v3KcyKR62cHZNzj',
+		avatar: 'https://lh3.googleusercontent.com/d/1_b77KIZ741g2XmBF6v3KcyKR62cHZNzj=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/songbirdsffxiv' },
