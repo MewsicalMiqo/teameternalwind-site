@@ -17,7 +17,7 @@
 		<div class="hero__ctas">
 			<MagneticButton variant="primary" href={team.twitch}>
 				<SocialIcon icon="twitch" size={19} />
-				Twitch Team
+				Team on Twitch
 			</MagneticButton>
 		</div>
 		<button class="hero__scroll" onclick={() => navigate('home', 'members')} aria-label="Scroll down to meet the crew">
