@@ -91,7 +91,7 @@ export const members: Member[] = [
 		id: 'projekt-auran',
 		name: 'Projekt Auran',
 		bio: 'Hi cuties! ❤️ 🖤 Projekt Auran here! Just call me Auran! I am a Blood Moon Bunny! Sometimes elf!\nPlaying games is what I do best!\nI often play gacha games and MMOs! I also am a Vtuber mama of many! (Vroid) Let\'s have some fun! Big!',
-		avatar: 'https://lh3.googleusercontent.com/d/1l2Pz2VYbjgOj9WUsweO8MzHU4Z3WZg5v=w256',
+		avatar: 'https://lh3.googleusercontent.com/d/1zGUQGE3F5bDWKsmBNLcqwZVPK41iTU2Z=w256',
 		accent: '#fb7185',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/projektauran' },
@@ -294,7 +294,7 @@ export const members: Member[] = [
 		id: 'vanillacrescent',
 		name: 'VanillaCrescent',
 		bio: 'I\'m Vanilla! ♂ Magical Moon Squirrel Queen Babiniku VTuber ♥ I\'ll be your favorite squirrel! I want ice cream though. I am a FFXIV-Focused Variety content creator, comedy major, Adventure enthusiast and chaos advocate!',
-		avatar: 'https://lh3.googleusercontent.com/d/1JGE4ONUKNtBNVG378slp5dkoS2X4UMJH=w256',
+		avatar: 'https://lh3.googleusercontent.com/d/1KCnidMnRvlMP5VDHb-BuhDmK5ukL3b2n=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/VanillaCrescent' },
@@ -464,6 +464,18 @@ export const members: Member[] = [
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/theemmallama' },
 			{ key: 'x', url: 'https://x.com/TheEmmaLlama' },
+		],
+	},
+	{
+		id: 'zaberastaris',
+		name: 'ZaberAstaris',
+		bio: '☆ Hello my name is Zaber! I\'m a variety streamer. I am a fan of playing mostly all types of games here, you can find me playing games from MMORPGs, JRPGs, Gachas, and More! Come by, chill and say Hi to me! ☆',
+		avatar: 'https://lh3.googleusercontent.com/d/1TlZ9DCD4Cwmtao3-2tCRkkuslc0HzkDQ=w256',
+		accent: '#e879f9',
+		socials: [
+			{ key: 'twitch', url: 'https://www.twitch.tv/zaberastaris' },
+			{ key: 'x', url: 'https://twitter.com/ZaberAstaris' },
+			{ key: 'youtube', url: 'https://www.youtube.com/channel/UCVs9jf1lanbGKuw7v4Qxk4Q' },
 		],
 	},
 	{
