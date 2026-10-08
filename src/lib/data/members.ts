@@ -345,8 +345,8 @@ export const members: Member[] = [
 	{
 		id: 'rururollin',
 		name: 'RuruRollin',
-		bio: 'Hi I\'m Ruru a half phoenix half angel PH/EN Vtuber. I\'m a comfy streamer who loves to play and hang out with friends.',
-		avatar: 'https://lh3.googleusercontent.com/d/1jjMcn-gR0Nc1ga-nd5EnCApmnysD_xfN=w256',
+		bio: 'Hi, I\'m Ruru Rollin, a comfy cat phoenix vtuber / vstreamer. I play a variety of games, mainly Final Fantasy XIV and Where Winds Meet.',
+		avatar: 'https://lh3.googleusercontent.com/d/1KTid7LMTlOnk3EVUJzMmwjJ5_Q5r4bHX=w256',
 		accent: '#60a5fa',
 		socials: [
 			{ key: 'twitch', url: 'https://www.twitch.tv/RuruRollin' },
