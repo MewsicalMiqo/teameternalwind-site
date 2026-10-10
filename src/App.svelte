@@ -2,6 +2,7 @@
 	import { startRouter, route } from '$lib/router';
 	import NavBar from './components/NavBar.svelte';
 	import Footer from './components/Footer.svelte';
+	import BackToTop from './components/BackToTop.svelte';
 	import ParticleWind from './components/ParticleWind.svelte';
 	import Home from './routes/Home.svelte';
 	import RulesPage from './routes/RulesPage.svelte';
@@ -40,3 +41,4 @@
 	{/if}
 </main>
 <Footer />
+<BackToTop />
